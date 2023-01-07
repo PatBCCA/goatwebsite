@@ -1,0 +1,83 @@
+
+.main{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url(Images/Morgan\ Rose\ background.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+    padding-bottom: 5em;
+    text-align: center;
+   
+}
+.header {
+    color: rgb(34, 226, 226);
+    text-align: center;
+    font: bolder;
+    font-style: oblique;
+    text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em rgb(190, 51, 249);
+}
+#header-text {
+    font-size: 90px;
+}
+#sub-header-text {
+    font-size: 50px;
+    margin-top: -60px;
+}
+.rounded-image {
+    border-radius: 40%;
+    display: inline-block;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: -40px;
+    
+}
+#less-rounded {
+    border-radius: 25px;
+    bottom: 110px;
+    position: relative;
+}
+.center-band-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.container {
+    text-align: center;
+}
+.txt {
+    color: rgb(34, 226, 226);
+    font: bolder;
+    font-style: oblique;
+    text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em rgb(190, 51, 249);  
+}
+#info {
+    font-size: 50px;
+    margin-top: 100px;
+}
+#music {
+    font-size: 50px;
+    margin-top: 118px;
+}
+#band {
+    font-size: 60px;
+    margin-bottom: 30px;
+    position: relative;
+    bottom: 120px;
+}
+.align{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#third-sub-header {
+    font-size: 30px;
+    margin-top: -80px;   
+}
+/* * {
+    border: 1px dashed snow
+} */
+@media screen and (max-width: 900px) {
+    .align{
+        flex-direction: column;
+    }
+    
+}
